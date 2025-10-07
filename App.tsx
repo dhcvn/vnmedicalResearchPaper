@@ -135,13 +135,17 @@ const App: React.FC = () => {
         )}
       </main>
       <footer className="text-center py-6 mt-8 border-t border-slate-800">
-        <div className="flex justify-center items-center gap-6 mb-4">
+        <div className="flex justify-center items-center flex-wrap gap-x-6 gap-y-2 mb-4">
             <a href="https://www.facebook.com/stata.soulmate" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-sky-400 transition-colors">
                 Follow me on Facebook
             </a>
-            <span className="text-slate-600">|</span>
+            <span className="text-slate-600 hidden sm:inline">|</span>
             <a href="https://www.youtube.com/@thuchanhthongkeysinh" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-sky-400 transition-colors">
                 Follow me on YouTube
+            </a>
+            <span className="text-slate-600 hidden sm:inline">|</span>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSclXivM6D00GDIgUqsKItO6e1zBKapx-fFPBdVeVmmfH-OjcA/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-sky-400 transition-colors">
+                Send Feedback
             </a>
         </div>
         <p className="text-slate-500 text-sm">Developed by- CuDao - MPH</p>
